@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import styled from "styled-components";
-import { boxShadow, color } from "../shared/styles";
+import React from 'react';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import { boxShadow, color } from '../shared/styles';
 
 const Bar = styled.div`
   width: 25vw;
@@ -21,7 +21,12 @@ const Bar = styled.div`
   }
 `;
 
-export function ApprovalBar({ icon, block, ...props }) {
+type ApprovalBarProps = {
+  icon?: any;
+  block?: any;
+};
+
+export function ApprovalBar(props: ApprovalBarProps) {
   return (
     <Bar>
       <div>

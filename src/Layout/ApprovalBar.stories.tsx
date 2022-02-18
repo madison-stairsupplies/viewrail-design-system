@@ -8,13 +8,13 @@ export default {
 };
 
 export const BarLayout = () => (
-  <Fragment>
+
     <ApprovalBar />
-  </Fragment>
+
 );
 
 export const MobileLayout = () => (
-  <Fragment>
+
     <ApprovalBar />
-  </Fragment>
+
 );
